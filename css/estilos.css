@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.contenedor{
+	outline: 5px solid black;
+	height: 800px;
+	width: 1200px;
+	margin: auto;
+	margin-top: 33px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+
+}
+.caja1{
+	outline: 2px solid gray;
+	height: 180px;
+	width: 1134px;
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap; 
+	justify-content: space-around;
+}
+.cajita1{
+	background: blue;
+	height: 100px;
+	width: 230px;
+	align-items: flex-start;
+	margin:auto;
+}
+.cajita2{
+	background:green;
+	height: 100px;
+	width: 230px;
+	align-items: flex-end;
+	margin:auto;
+}
+
+.caja2{
+	outline: 2px solid gray;
+	height: 240px;
+	width: 1134px;
+	margin: auto;
+	margin-top: 25px;
+	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap; 
+	justify-content: space-around;
+}
+.cajita3{
+	background: blue;
+	height: 100px;
+	width: 230px;
+	align-items: flex-start;
+	margin:auto;
+}
+.cajita4{
+	background:green;
+	height: 100px;
+	width: 230px;
+	align-items: flex-end;
+	margin:auto;
+}
+.cajita5{
+	background:green;
+	height: 100px;
+	width: 230px;
+	align-items: flex-end;
+	margin:auto;
+	}
+
+.caja3{
+	outline: 2px solid gray;
+	height: 180px;
+	width: 1134px;
+	margin: auto;
+	margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap; 
+	justify-content: flex-end;
+}
+.cajita6{
+	background:green;
+	height: 100px;
+	width: 230px;
+	margin-top: 40px;
+	margin-right: 40px;
+	align-items: flex-start;
+}
